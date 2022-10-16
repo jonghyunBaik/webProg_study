@@ -1,17 +1,55 @@
 .login_wrapper {
     width: 380px; 
     height: 520px; 
-    margin: auto; 
-    padding: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -260px;
+    margin-left: -190px;
     border-radius: 3px; 
-    box-shadow: 0px 0px 1px #000;
+    box-shadow: 0px 0px 4px #000;
+    background-color: grey;
+    flex-direction: column;
 }
 
+.logo {
+    position: relative;
+    top: 5%
+}
+.logo_img {
+    position: relative;
+    left: 50%;
+    margin-left: -65px;
+}
 .login_logo {
-    
-    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+    margin: 10px;
 }
 
-.login_form {
-    margin-bottom: 10px;
+.login_input {
+    position: relative;
+    top: 5%;
+    text-align: center;
+}
+
+input {
+    width: 80%;
+    height: 20px;
+}
+
+form {
+    margin-top: 5px;
+}
+
+.page_btn {
+    width: 300px;
+    margin-top: 5px;
+    color: white;
+    background-color: black;
+    box-shadow: 0px 0px 1px black;
+}
+
+.btn_wrapper {
+    margin-top: 10px;
 }
